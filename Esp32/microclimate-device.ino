@@ -72,7 +72,7 @@ void loop()
     }
   }
      
-  while(!client.writePoint(sensor))
+  while (!client.writePoint(sensor))
   {
     oled.clear();
     oled.setCursor(0, 2);
