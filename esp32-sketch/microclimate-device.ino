@@ -6,7 +6,7 @@
 GyverOLED<SSD1306_128x64, OLED_NO_BUFFER> oled;
 
 #define WIFI_SSID "<your wifi name>"
-#define WIFI_PASSWORD "your wifi password"
+#define WIFI_PASSWORD "<your wifi password>"
 
 WiFiMulti wifi;
 
