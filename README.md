@@ -45,7 +45,7 @@ To download a copy of the project [click here](https://github.com/Neutroo/Microc
 ```
 docker-compose up -d
 ```
-3. Open InfludDB via http://localhost:8086 or from docker and create API tokens for esp32 and Grafana.\
+3. Open InfluxDB via http://localhost:8086 or from docker and create API tokens for esp32 and Grafana.\
 If you don't know how - read the [documentation](https://docs.influxdata.com/influxdb/cloud/security/tokens/create-token/).
 4. Open Grafana via http://localhost:3000 and enter login and password:\
 Login: admin\
