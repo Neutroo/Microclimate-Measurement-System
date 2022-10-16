@@ -5,8 +5,8 @@
 
 GyverOLED<SSD1306_128x64, OLED_NO_BUFFER> oled;
 
-#define WIFI_SSID "MGTS_GPON_9D79"
-#define WIFI_PASSWORD "X5E9XH6N"
+#define WIFI_SSID "<your wifi name>"
+#define WIFI_PASSWORD "your wifi password"
 
 WiFiMulti wifi;
 
