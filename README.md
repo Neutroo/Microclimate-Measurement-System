@@ -59,7 +59,7 @@ Password: admin
 
 5. Open dashboard in [dashboards menu](http://localhost:3000/dashboards)
 
-## Results
+## Outcome
 
 ![results](https://raw.githubusercontent.com/Neutroo/Neutroo/main/Images/Microclimate%20Measurement%20System/Screenshot%202022-10-16%20184433.png)
 
