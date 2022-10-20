@@ -24,7 +24,7 @@ Wiring diagram:
 4. Set up your wifi SSID and password.
 ```c++
 #define WIFI_SSID "<your wifi name>"
-#define WIFI_PASSWORD "your wifi password"
+#define WIFI_PASSWORD "<your wifi password>"
 ```
 5. Set up your influxdb url, token, organization and bucket.
 ```c++
