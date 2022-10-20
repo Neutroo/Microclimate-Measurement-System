@@ -5,15 +5,15 @@
 
 GyverOLED<SSD1306_128x64, OLED_NO_BUFFER> oled;
 
-#define WIFI_SSID "MGTS_GPON_9D79"
-#define WIFI_PASSWORD "X5E9XH6N"
+#define WIFI_SSID "<your wifi name>"
+#define WIFI_PASSWORD "<your wifi password>"
 
 WiFiMulti wifi;
 
-#define INFLUXDB_URL "http://192.168.1.70:8086"
-#define INFLUXDB_TOKEN "AfV4lF3KWptISPQ-SjoMpaCFxs67wQ566j5bfVoOekhhR643RbowVjJwrOkcfuRTX6gMp8kmBZ4fbjev043syw=="
-#define INFLUXDB_ORG "org"
-#define INFLUXDB_BUCKET "microclimate"
+#define INFLUXDB_URL "http://<your influx server ip>:8086"
+#define INFLUXDB_TOKEN "<your influx token>"
+#define INFLUXDB_ORG "<your org name>"
+#define INFLUXDB_BUCKET "<your bucket name>"
 
 InfluxDBClient client(INFLUXDB_URL, INFLUXDB_ORG, INFLUXDB_BUCKET, INFLUXDB_TOKEN);
 
